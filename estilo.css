@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --color1: #982123; 
+    --color2: #f9ecc4; 
+    --color3: #ce1a1d; 
+    --color4: #ba6264; 
+    --color5: #686363;
+}
+nav {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: space-between;
+    padding-top: 0; 
+    background-color: var(--color2);
+    height: 130px;
+    font-size: 15px;
+    font-family: "Mulish", sans-serif;
+    font-weight: bold;
+
+
+}
+
+
+#logo img {
+    width: 300px;
+    height: auto;
+    padding-left: 20px;
+}
+
+#menu ul {
+    display: flex; 
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+#menu li {
+    margin: 80px; 
+}
+
+#menu a {
+    text-decoration: none; 
+    color: black; 
+}
+main {
+    display: flex; /* Usa flexbox para organizar elementos en una fila */
+    margin: 0 150px;
+    font-family: "Mulish", sans-serif;
+}
+/*tablas*/
+.tabla-uno,
+.tabla-dos {
+    border-collapse: separate; 
+    border-spacing: 10px; 
+}
+
+.titulored{
+    color: #ce1a1d;
+    font-size: 23px;
+}
+article {
+    flex: 2;
+    margin-right: 20px; 
+}
+
+#mapa{
+    flex: 1;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.form-container {
+    flex: 1;
+    margin-right: 20px; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+/*formulario*/
+.form-group {
+    margin-bottom: 20px; 
+}
+.form-container form {
+    width: 100%; 
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px; /* Espaciado interno para los cuadros de entrada */
+    font-size: 16px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+.form-group textarea {
+    height: 150px; 
+}
+button {
+    width: 100%; /* Ocupa todo el ancho del formulario */
+    background-color: var(--color5); /* Color de fondo gris */
+    color: white; /* Color del texto */
+    padding: 12px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    font-size: 18px; /* Tamaño de la fuente */
+}
+
+button:hover {
+    background-color: #c0c0c0; 
+}
+
+label {
+    display: block; 
+    margin-bottom: 5px; 
+}
+/*footer*/
+#infofinal {
+    display: flex; 
+    background-color: var(--color1); /* Color de fondo rojo */
+    padding: 10px; /* Espaciado interno */
+    font-family: "Mulish", sans-serif;
+}
+
+#logopie {
+    flex: 1; 
+    color: white; 
+    padding-left: 70px;
+    
+}
+
+#logopie img {
+    width: 170px;
+    height: auto;
+}
+#tablapie {
+    margin-left: 20px; 
+    
+}
+#tablapie table {
+    border-collapse: separate; /* Permite que los bordes sean separados */
+    border-spacing: 150px 0; 
+    color: white;
+    text-align: left;
+    font-size: 12px;
+}
+h3{
+    font-size: 13px;
+}
